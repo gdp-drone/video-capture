@@ -7,7 +7,7 @@ using namespace std;
 using namespace cv;
 
 int main(int argc, char** argv){
-  VideoCapture vid(1);
+  VideoCapture vid(0);
   if(!vid.isOpened()){
     cout << "Error opening webcam stream" << endl;
     return -1;
